@@ -1,0 +1,122 @@
+Date : 2023-08-31 18:01:16
+Directory : d:\Projects\RGDJam_2023
+Total : 67 files,  9945 codes, 2077 comments, 2550 blanks, all 14572 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Lua              |         50 |      6,718 |      1,735 |      1,234 |      9,687 |
+| reStructuredText |          9 |      1,970 |        130 |      1,072 |      3,172 |
+| Markdown         |          3 |        871 |          0 |         87 |        958 |
+| JavaScript       |          1 |        162 |         16 |         41 |        219 |
+| Makefile         |          1 |        156 |          6 |         31 |        193 |
+| Python           |          1 |         41 |        178 |         75 |        294 |
+| YAML             |          1 |         20 |         11 |          8 |         39 |
+| Shell Script     |          1 |          7 |          1 |          2 |         10 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                           |         67 |      9,945 |      2,077 |      2,550 |     14,572 |
+| . (Files)                                                                   |          4 |        221 |          9 |         26 |        256 |
+| libriares                                                                   |         41 |      8,771 |      2,031 |      2,376 |     13,178 |
+| libriares (Files)                                                           |          2 |        421 |         65 |        102 |        588 |
+| libriares\Input                                                             |          1 |        252 |          4 |         44 |        300 |
+| libriares\breezefield                                                       |          8 |        486 |         60 |        111 |        657 |
+| libriares\breezefield (Files)                                               |          5 |        291 |         38 |         60 |        389 |
+| libriares\breezefield\test                                                  |          3 |        195 |         22 |         51 |        268 |
+| libriares\breezefield\test (Files)                                          |          1 |         82 |          6 |         22 |        110 |
+| libriares\breezefield\test\test_deep                                        |          1 |         82 |          6 |         21 |        109 |
+| libriares\breezefield\test\test_queryareas                                  |          1 |         31 |         10 |          8 |         49 |
+| libriares\classic                                                           |          1 |         44 |          8 |         17 |         69 |
+| libriares\hump                                                              |         24 |      3,523 |        418 |      1,494 |      5,435 |
+| libriares\hump (Files)                                                      |         10 |      1,005 |         78 |        238 |      1,321 |
+| libriares\hump\docs                                                         |         12 |      2,329 |        330 |      1,219 |      3,878 |
+| libriares\hump\docs (Files)                                                 |         11 |      2,167 |        314 |      1,178 |      3,659 |
+| libriares\hump\docs\_static                                                 |          1 |        162 |         16 |         41 |        219 |
+| libriares\hump\spec                                                         |          1 |         55 |          0 |         19 |         74 |
+| libriares\hump\tests                                                        |          1 |        134 |         10 |         18 |        162 |
+| libriares\moses                                                             |          1 |      1,523 |      1,360 |        254 |      3,137 |
+| libriares\windfield                                                         |          4 |      2,522 |        116 |        354 |      2,992 |
+| libriares\windfield (Files)                                                 |          1 |        808 |         13 |        109 |        930 |
+| libriares\windfield\mlib                                                    |          3 |      1,714 |        103 |        245 |      2,062 |
+| objects                                                                     |         19 |        688 |         24 |        114 |        826 |
+| rooms                                                                       |          3 |        265 |         13 |         34 |        312 |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                    | language         | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| d:\Projects\RGDJam_2023\conf.lua                                            | Lua              |         40 |          0 |          3 |         43 |
+| d:\Projects\RGDJam_2023\globals.lua                                         | Lua              |          6 |          0 |          0 |          6 |
+| d:\Projects\RGDJam_2023\libriares\Input\Input.lua                           | Lua              |        252 |          4 |         44 |        300 |
+| d:\Projects\RGDJam_2023\libriares\Timer.lua                                 | Lua              |        167 |          1 |         27 |        195 |
+| d:\Projects\RGDJam_2023\libriares\breezefield\collider.lua                  | Lua              |         55 |          2 |         13 |         70 |
+| d:\Projects\RGDJam_2023\libriares\breezefield\init.lua                      | Lua              |         13 |          2 |         10 |         25 |
+| d:\Projects\RGDJam_2023\libriares\breezefield\test.sh                       | Shell Script     |          7 |          1 |          2 |         10 |
+| d:\Projects\RGDJam_2023\libriares\breezefield\test\main.lua                 | Lua              |         82 |          6 |         22 |        110 |
+| d:\Projects\RGDJam_2023\libriares\breezefield\test\test_deep\main.lua       | Lua              |         82 |          6 |         21 |        109 |
+| d:\Projects\RGDJam_2023\libriares\breezefield\test\test_queryareas\main.lua | Lua              |         31 |         10 |          8 |         49 |
+| d:\Projects\RGDJam_2023\libriares\breezefield\utils.lua                     | Lua              |         25 |          4 |          4 |         33 |
+| d:\Projects\RGDJam_2023\libriares\breezefield\world.lua                     | Lua              |        191 |         29 |         31 |        251 |
+| d:\Projects\RGDJam_2023\libriares\classic\classic.lua                       | Lua              |         44 |          8 |         17 |         69 |
+| d:\Projects\RGDJam_2023\libriares\hump\.travis.yml                          | YAML             |         20 |         11 |          8 |         39 |
+| d:\Projects\RGDJam_2023\libriares\hump\README.md                            | Markdown         |         41 |          0 |          8 |         49 |
+| d:\Projects\RGDJam_2023\libriares\hump\camera.lua                           | Lua              |        166 |         12 |         39 |        217 |
+| d:\Projects\RGDJam_2023\libriares\hump\class.lua                            | Lua              |         74 |          9 |         16 |         99 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\Makefile                        | Makefile         |        156 |          6 |         31 |        193 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\_static\graph-tweens.js         | JavaScript       |        162 |         16 |         41 |        219 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\camera.rst                      | reStructuredText |        334 |         24 |        210 |        568 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\class.rst                       | reStructuredText |        244 |          7 |        103 |        354 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\conf.py                         | Python           |         41 |        178 |         75 |        294 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\gamestate.rst                   | reStructuredText |        240 |         12 |        110 |        362 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\index.rst                       | reStructuredText |         41 |          1 |         18 |         60 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\license.rst                     | reStructuredText |         21 |          0 |          6 |         27 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\signal.rst                      | reStructuredText |        110 |         10 |         78 |        198 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\timer.rst                       | reStructuredText |        439 |         17 |        161 |        617 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\vector-light.rst                | reStructuredText |        271 |         28 |        194 |        493 |
+| d:\Projects\RGDJam_2023\libriares\hump\docs\vector.rst                      | reStructuredText |        270 |         31 |        192 |        493 |
+| d:\Projects\RGDJam_2023\libriares\hump\gamestate.lua                        | Lua              |         85 |         11 |         20 |        116 |
+| d:\Projects\RGDJam_2023\libriares\hump\init.lua                             | Lua              |         14 |          0 |          3 |         17 |
+| d:\Projects\RGDJam_2023\libriares\hump\signal.lua                           | Lua              |         81 |          4 |         18 |        103 |
+| d:\Projects\RGDJam_2023\libriares\hump\spec\timer_spec.lua                  | Lua              |         55 |          0 |         19 |         74 |
+| d:\Projects\RGDJam_2023\libriares\hump\tests\main.lua                       | Lua              |        134 |         10 |         18 |        162 |
+| d:\Projects\RGDJam_2023\libriares\hump\timer.lua                            | Lua              |        210 |         20 |         45 |        275 |
+| d:\Projects\RGDJam_2023\libriares\hump\vector-light.lua                     | Lua              |        143 |          6 |         38 |        187 |
+| d:\Projects\RGDJam_2023\libriares\hump\vector.lua                           | Lua              |        171 |          5 |         43 |        219 |
+| d:\Projects\RGDJam_2023\libriares\moses\moses.lua                           | Lua              |      1,523 |      1,360 |        254 |      3,137 |
+| d:\Projects\RGDJam_2023\libriares\utf8.lua                                  | Lua              |        254 |         64 |         75 |        393 |
+| d:\Projects\RGDJam_2023\libriares\windfield\init.lua                        | Lua              |        808 |         13 |        109 |        930 |
+| d:\Projects\RGDJam_2023\libriares\windfield\mlib\LICENSE.md                 | Markdown         |         14 |          0 |          4 |         18 |
+| d:\Projects\RGDJam_2023\libriares\windfield\mlib\README.md                  | Markdown         |        816 |          0 |         75 |        891 |
+| d:\Projects\RGDJam_2023\libriares\windfield\mlib\mlib.lua                   | Lua              |        884 |        103 |        166 |      1,153 |
+| d:\Projects\RGDJam_2023\main.lua                                            | Lua              |        120 |          9 |         17 |        146 |
+| d:\Projects\RGDJam_2023\objects\1_Director.lua                              | Lua              |          6 |          0 |          3 |          9 |
+| d:\Projects\RGDJam_2023\objects\1_GameObject.lua                            | Lua              |         24 |          0 |          7 |         31 |
+| d:\Projects\RGDJam_2023\objects\Ammo.lua                                    | Lua              |         27 |          0 |          3 |         30 |
+| d:\Projects\RGDJam_2023\objects\Area.lua                                    | Lua              |         42 |          1 |          7 |         50 |
+| d:\Projects\RGDJam_2023\objects\Dice.lua                                    | Lua              |         70 |          1 |         11 |         82 |
+| d:\Projects\RGDJam_2023\objects\EnemyDeathEffect.lua                        | Lua              |          4 |          0 |          2 |          6 |
+| d:\Projects\RGDJam_2023\objects\ExplodeParticle.lua                         | Lua              |         25 |          1 |          4 |         30 |
+| d:\Projects\RGDJam_2023\objects\InfoText.lua                                | Lua              |         18 |          2 |          5 |         25 |
+| d:\Projects\RGDJam_2023\objects\Interface.lua                               | Lua              |         82 |          4 |          9 |         95 |
+| d:\Projects\RGDJam_2023\objects\Player.lua                                  | Lua              |        164 |          8 |         19 |        191 |
+| d:\Projects\RGDJam_2023\objects\Projectile.lua                              | Lua              |         35 |          0 |          8 |         43 |
+| d:\Projects\RGDJam_2023\objects\ProjectileDeathEffect.lua                   | Lua              |         16 |          0 |          2 |         18 |
+| d:\Projects\RGDJam_2023\objects\Rock.lua                                    | Lua              |         58 |          5 |         12 |         75 |
+| d:\Projects\RGDJam_2023\objects\ShootEffect.lua                             | Lua              |         21 |          0 |          4 |         25 |
+| d:\Projects\RGDJam_2023\objects\StatWindow.lua                              | Lua              |         54 |          2 |          8 |         64 |
+| d:\Projects\RGDJam_2023\objects\StaticAsteroid.lua                          | Lua              |         21 |          0 |          5 |         26 |
+| d:\Projects\RGDJam_2023\objects\StatisticsBar.lua                           | Lua              |          1 |          0 |          0 |          1 |
+| d:\Projects\RGDJam_2023\objects\Test.lua                                    | Lua              |          8 |          0 |          2 |         10 |
+| d:\Projects\RGDJam_2023\objects\TrailParticle.lua                           | Lua              |         12 |          0 |          3 |         15 |
+| d:\Projects\RGDJam_2023\rooms\Tutorial.lua                                  | Lua              |         29 |          0 |          5 |         34 |
+| d:\Projects\RGDJam_2023\rooms\main_menu.lua                                 | Lua              |         49 |          0 |          7 |         56 |
+| d:\Projects\RGDJam_2023\rooms\stage.lua                                     | Lua              |        187 |         13 |         22 |        222 |
+| d:\Projects\RGDJam_2023\utils.lua                                           | Lua              |         55 |          0 |          6 |         61 |
+| Total                                                                       |                  |      9,945 |      2,077 |      2,550 |     14,572 |
++-----------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
